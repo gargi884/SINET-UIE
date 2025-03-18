@@ -15,8 +15,8 @@
 
 ## Create environment and install packages
 ```
-conda create -n INNPAR python=3.9
-conda activate INNPAR
+conda create -n SINET python=3.9
+conda activate SINET
 pip install -r requirements.txt
 ```
 
