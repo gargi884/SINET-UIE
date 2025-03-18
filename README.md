@@ -1,6 +1,6 @@
 # SINET: Sparsity-driven Interpretable Neural Network for Underwater Image Enhancement
 
-[arxiv](https://arxiv.org/pdf/2409.09021)
+[Arxiv](https://arxiv.org/abs/2409.01022)  [Paper](https://ieeexplore.ieee.org/document/10889910)
 
 > **Abstract:** *Improving the quality of underwater images is essential for advancing marine research and technology. This work introduces a sparsity-driven interpretable neural network (SINET) for the underwater image enhancement (UIE) task. Unlike pure deep learning methods, our network architecture is based on a novel channel-specific convolutional sparse coding (CCSC) model, ensuring good interpretability of the underlying image enhancement process. The key feature of SINET is that it estimates the salient features from the three color channels using three sparse feature estimation blocks (SFEBs). The architecture of SFEB is designed by unrolling an iterative algorithm for solving the ℓ<sub>1</sub> regulaized convolutional sparse coding (CSC) problem. Our experiments show that SINET surpasses state-of-the-art PSNR value by 1.05 dB with  3873 times lower computational complexity.* 
 
@@ -77,10 +77,12 @@ python train.py
 If you find the code helpful in your research or work, please cite the following paper.
 
 ```
-@article{panda2024sinet,
-  title={SINET: Sparsity-driven Interpretable Neural Network for Underwater Image Enhancement},
+@INPROCEEDINGS{10889910,
   author={Panda, Gargi and Kundu, Soumitra and Bhattacharya, Saumik and Routray, Aurobinda},
-  journal={arXiv preprint arXiv:2409.01022},
-  year={2024}
-}
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={SINET: Sparsity-driven Interpretable Neural Network for Underwater Image Enhancement}, 
+  year={2025},
+  pages={1-5},
+  doi={10.1109/ICASSP49660.2025.10889910}}
+
 ```
